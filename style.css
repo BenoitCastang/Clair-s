@@ -51,13 +51,15 @@ nav #toplogo {
   width: 170px;
 }
 #buttoncontact {
-  background-color: #ffcd00;
-  padding: 3px;
-  border-radius: 10px;
+  background-color: #f3dc10;
+  padding: 5px;
+  border-radius: 30px;
+  width: 100px;
   font-weight: bold;
+  text-align: center;
 }
 #buttoncontact:hover {
-  background-color: #fcd32f;
+  background-color: #fc2f84;
   color: #c10230;
   padding: 5px;
 }
