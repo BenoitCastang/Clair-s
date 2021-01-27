@@ -4,7 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,7 +18,10 @@
         <form name="inscription" method="post" action="#">
             <fieldset>
                <legend><h2>Inscris-toi !</h2></legend>
-                Nom et prénom<br>
+               <div class="form">
+               Nom<br>
+               <input type="text" name="nom" value=""><br>
+               Prénom<br>
                <input type="text" name="nom" value=""><br>
                Email<br>
                <input type="text" name="email" value=""><br>
@@ -21,7 +30,9 @@
                Mot de passe<br>
                <input type="password" name="pass" value=""><br>
                <a href="./index.html">Mot de passe oublié?</a>
-               <input type="button" name="envoyer" value="Envoyer">
+               <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3">Envoyer</button>
+              </div>
             </fieldset>
          </form>
     </main>

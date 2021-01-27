@@ -11,12 +11,6 @@ main {
   background-image: url(images/licorne.jpg);
 }
 
-h1 {
-  font-size: 3em;
-  font-weight: bold;
-}
-
-
 /* Haut de page-Navigation Start */
 nav {
   width: 1000px;
@@ -57,10 +51,6 @@ nav #toplogo {
   background-color: #fc2f84;
   color: #c10230;
   padding: 5px;
-}
-
-a {
-  color: #111;
 }
 
 .menu {
@@ -133,4 +123,17 @@ main {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   padding: 5px 10px 5px 10px;
+}
+/* Formulaire inscription Vanessa */
+
+.h2{
+  color: #c10230;
+}
+
+.form{
+  color: #c10230;
+}
+
+.body{
+  width:auto;
 }
