@@ -324,158 +324,26 @@ textarea {
   padding: 10px;
 }
 
-#css-logo {
-  float: right;
-  padding-left: 60px;
+.day   { background: #eee; color: black; }
+.night { background: #333; color: white; }
+
+@media (prefers-color-scheme: dark) {
+  .day.dark-scheme   { background:  #333; color: white; }
+  .night.dark-scheme { background: black; color:  #ddd; }
 }
 
-#html-logo {
-  float: left;
-  left: 100px;
-  padding: 20px;
+@media (prefers-color-scheme: light) {
+  .day.light-scheme   { background: white; color:  #555; }
+  .night.light-scheme { background:  #eee; color: black; }
 }
 
-@keyframes css-logo-animation {
-  0% {
-      /* transform: translateX(0px); */
-      /* width: 200px; */
-      transform: rotate(8turn);
-      /* margin-left: 50px; */
-    }
-  25% {
-      /* width: 225px; */
-      /* margin-left: 90px; */
-      margin-left: 80px;
-    }
-    50% {
-      /* transform:translateX(150px) perspective(0.5cm); */
-      /* /* transform: translateX(1000px) */
-      /* width: 250px; */
-      margin-bottom: 50px;
-    }
-    75% {
-      /* background-color: tomato; */
-      /* width: 275px; */
-      /* margin-left: 80px; */
-      margin-left: 50px;
-    }
-    100% {
-      /* transform: translateX(1000px), matrix(25px); */
-      /* width: 200px; */
-    }
+.day, .night {
+  display: inline-block;
+  padding: 1em;
+  width: 7em;
+  height: 2em;
+  vertical-align: middle;
 }
-
-#css-logo:hover {
-  /* background-color: blue; */
-  animation: css-logo-animation 5s;
-  animation-timing-function: linear;
-  /* animation-fill-mode: forwards; */
-  /* animation-iteration-count: infinite; */
-  /* animation-direction: alternate; */
-}
-
-@keyframes html-logo-animation {
-  50% {
-    transform: scale(1.5);
-    margin: 20px;
-  } 
-}
-
-#html-logo:active {
-  animation: html-logo-animation 0.5s;
-}
-
-@keyframes sky-animation {
-  0% {
-    background:linear-gradient(#88889c, #0d0d79);
-  }
-  30% {
-    background: linear-gradient(orange, 70%, red);
-  }
-  40% {
-    background:linear-gradient(blue, 20%, skyblue);
-  }
-  60% {
-    background-color: skyblue;
-    }
-  100% {
-    background-color: skyblue;
-  }
-}
-
-#sky {
-  width: 900px;
-  height: 800px;
-  margin-bottom: 100px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  animation-name: sky-animation;
-  animation-duration: 40s;
-  transition-timing-function: linear;
-  animation-direction: normal;
-  animation-fill-mode: forwards;
-}
-
-/* .stars {
-  width: 10px;
-  border-radius: 50%;
-  border-radius: 50% / 100% 100% 0% 0%;
-  background-color: whitesmoke;
-  position: absolute;
-  top: 80%;
-  left: 35%;
- } */
-
-/* @keyframes sea-animation {
-  20% {
-    background: linear-gradient(seagreen, #0d0d79);
-  }
-  100% {
-    background: linear-gradient(skyblue, seagreen);
-  }
-} */
-
-#sea {
-  width: 100%;
-  height: 30%;
-  position: relative;
-  top: 50%;
-  background: linear-gradient(rgb(10, 5, 105), 20%, rgb(1, 2, 20));
-  /* animation: sea-animation 10s;
-  transition-timing-function: linear;
-  animation-direction: normal;
-  animation-fill-mode: forwards; */
-}
-
-@keyframes sun-animation {
-  100% {
-    transform: translateY(-550px)
-  }
-}
-
-#sun {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  /* border-radius: 50% / 100% 100% 0% 0%; */
-  background: radial-gradient(orange 30%, yellow);
-  position: relative;
-  top: 75%;
-  left: 35%;
-  animation-name: sun-animation;
-  animation-duration: 40s;
-  /* animation-play-state: paused; */
-  /* transition-timing-function: normal; */
-  animation-direction: normal;
-  animation-fill-mode: forwards;
-}
-
-/* #round { */
-  /* animation: round-animation 5s; */
-  /* transform-origin: 50% 50%; */
-  /* animation-iteration-count: infinite; */
-/* } */
 
 
 /* fin css BenoitCastang pages html et css */
