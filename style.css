@@ -9,12 +9,12 @@
     margin-right: auto;
   }
 
-  main {
+  body {
     /* border: solid 1px; */
-    align-items: justify;
-    width: auto;
+    align-items: center;
+    width: 100%;
     font-size: small;
-    background-size: 100%;
+    /* background-size: 100%; */
   }
 
   h1 {
@@ -23,11 +23,20 @@
   }
 
 }
-
-
-html {
+/* form {
   background-image: url(images/rainbow.jpg);
+} */
+
+body{
+  background-image: url(images/rainbow.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
+
+/* body {
+  background-image: url(images/rainbow.jpg);
+} */
 
 main {
   font-size: 0.9em;
@@ -39,111 +48,6 @@ main {
   margin: 0;
 }
 
-
-
-/* Haut de page-Navigation Start */
-/* nav {
-  width: 1000px;
-  height: 50px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: linear-gradient(blue, red, yellow, green);
-}
-nav,
-a {
-  color: #111;
-  text-decoration: none;
-}
-a:visited {
-  color: #111;
-}
-nav img {
-  overflow: visible;
-  align-self: start;
-  z-index: 1;
-}
-nav #toplogo {
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  width: 170px;
-}
-#buttoncontact {
-  background-color: #f3dc10;
-  padding: 5px;
-  border-radius: 30px;
-  width: 100px;
-  font-weight: bold;
-  text-align: center;
-}
-#buttoncontact:hover {
-  background-color: #fc2f84;
-  color: #c10230;
-  padding: 5px;
-}
-
-.menu {
-  display: inline-block;
-  height: 50px;
-  padding: 0 20px 0 20px;
-  line-height: 50px;
-  color: #111;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.menu:hover #menuderoulant, */
-/* .menu:hover, */
-/* .menu:hover a {
-  background-color: white;
-  color: #c10230;
-  visibility: visible;
-}
-.menu:hover {
-  color: #c10230;
-}
-#menuderoulant {
-  background-color: white;
-  list-style: none;
-  visibility: hidden;
-  position: absolute;
-  top: 50px;
-  margin-top: 0;
-  width: 130px;
-  padding: 0 0 15px 0;
-  text-align: center;
-}
-
-#menuderoulant li {
-  padding-top: 15px;
-}
-
-#menuderoulant a {
-  color: #c10230;
-  text-decoration: none;
-  font-size: 14px;
-}
-#menuderoulant a:hover {
-  color: black;
-}
-
-#banniere {
-  margin: auto;
-  width: 1100px;
-}
-
-#banniere img {
-  width: 100%;
-}
-
-/* Haut de page-Navigation End */
-
-/*header {
-  text-align: justify;
-  max-width: 850px; */
-}
-/* Formulaire inscription Vanessa */
 
 .h2{
   display: flex;
