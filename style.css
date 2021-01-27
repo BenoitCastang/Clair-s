@@ -29,7 +29,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background: linear-gradient(blue, red, yellow, green);
 }
 nav,
 a {
@@ -485,7 +485,7 @@ textarea {
   display: block;
   padding-top: 2em;
   padding-bottom: 2em;
-  background: #000000;
+  background: linear-gradient(blue, red, yellow, green);
   color: blanchedalmond;
 }
 .footer .text1 {
