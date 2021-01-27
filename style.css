@@ -143,13 +143,18 @@ nav #toplogo {
 /* Formulaire inscription Vanessa */
 
 .h2{
+  display: flex;
   color: #c10230;
 }
 
 .form{
   color: #c10230;
+  
 }
 
 .body{
   width:auto;
+}
+.center {
+  text-align: center;
 }
