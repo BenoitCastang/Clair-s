@@ -19,6 +19,7 @@ h1 {
 
 
 /* Haut de page-Navigation Start */
+
 nav {
   width: 1000px;
   height: 50px;
@@ -28,6 +29,7 @@ nav {
   align-items: center;
   background: linear-gradient(blue, red, yellow, green);
 }
+
 nav,
 a {
   color: #111;
@@ -36,11 +38,11 @@ a {
 a:visited {
   color: #111;
 }
-nav img {
+/* nav img {
   overflow: visible;
   align-self: start;
-  z-index: 1;
-}
+  z-index: 5;
+} */
 nav #toplogo {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -116,12 +118,13 @@ a {
   width: 100%;
 }
 
-/* Haut de page-Navigation End */
+Haut de page-Navigation End */
 
-header {
+ header {
   text-align: justify;
   max-width: 850px;
-}
+} 
+
 main {
   position: relative;
   background-color: white;
@@ -140,7 +143,7 @@ main {
   display: block;
   padding-top: 2em;
   padding-bottom: 2em;
-  background: linear-gradient(blue, red, yellow, green);
+  background: linear-gradient(rgb(235, 18, 217));
   color: blanchedalmond;
 }
 .footer .text1 {
